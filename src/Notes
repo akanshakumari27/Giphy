@@ -1,0 +1,21 @@
+Install vite: npm i create vite@latest
+Install Tailwindcss-vite: npm i tailwindcss @tailwindcss/vite 
+{ Seacrch in chrome, you will find all steps }
+
+Multi Page Install: npm i react-router-dom
+
+"min-h-screen" in Tailwind means, Minimum height is 100vh(viewport height)
+"px-6" means Padding at (X-axis = left + right)
+
+1 - .25rem - 4px
+2 - .50rem - 8px  So On....
+6 - 1.50 rem - 24px
+
+p-2 (But you not satisfied, want your own custom padding, therefore can use [])
+p-[2px] (it will give 2px padding)
+
+We will use <Link> tag from 'react-router-dom' instead of Anchor tag <a> for LOGO Image (because it's Fast)
+
+For Icons: chrome(React Icons)
+
+For State-Mangement: we will use Context API
