@@ -3,3 +3,8 @@
 @utility gradient{
     background: linear-gradient(to right, #0d9488, #2563eb, #db2777)
 }
+@utility faded-text{
+     font-weight: bold;
+     font-size: 0.875rem; /* text-sm */
+     color: #9CA3AF; 
+}

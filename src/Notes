@@ -19,3 +19,8 @@ We will use <Link> tag from 'react-router-dom' instead of Anchor tag <a> for LOG
 For Icons: chrome(React Icons)
 
 For State-Mangement: we will use Context API
+
+-> createContext is used to create a Context object that stores global data and allows components to share values without passing props manually {Creates a global data store (Context) that can be shared across components (kind of inbuilt Redux in React)}
+-> useContext is a hook that allows a component to read or access the data stored in a Context without using props {Allows a component to access the value provided by that Context.}
+
+import.meta is a special built-in object in ES modules (meta = metadata)
