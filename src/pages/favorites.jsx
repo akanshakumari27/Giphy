@@ -13,7 +13,7 @@ const Favorites = () => {
 
   useEffect(() => {
     fetchFavoriteGIFs();
-  }, []);
+  }, [])
 
   return (
     <div className="mt-2">
